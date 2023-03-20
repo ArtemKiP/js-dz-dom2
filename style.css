@@ -21,6 +21,7 @@
     flex-direction: column;
     row-gap: 20px;
     background: grey;
+    margin-top: 60px;
 }
 .card__image{
     width: 100%;
@@ -56,4 +57,23 @@
     font-size: 18px;
 
 
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 40px;
+    margin-top: 40px;
+    list-style-type: none;
+    font-size: 22px;
+}
+.search{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.search-field{
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
 }
